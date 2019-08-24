@@ -1,9 +1,5 @@
 package com.erikriosetiawan
 
-
-object Main {
-    @JvmStatic
-    fun main(args: Array<String>) {
-        println("Hello, World!")
-    }
+fun main(vararg args: String) {
+    println("Hello, World!")
 }
